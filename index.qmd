@@ -4,6 +4,7 @@ author:
   - Eric Nantz, Eli Lilly
   - R Submissions Working Group
   - R/Adoption Series 11-DEC-2023
+  - rpodcast.github.io/shinysub_webinar
 format: 
   revealjs:
     template-partials: 
