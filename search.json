@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "CODE_OF_CONDUCT.html",
+    "href": "CODE_OF_CONDUCT.html",
+    "title": "Contributor Code of Conduct",
+    "section": "",
+    "text": "Contributor Code of Conduct\nAs contributors and maintainers of this project, we pledge to respect all people who contribute through reporting issues, posting feature requests, updating documentation, submitting pull requests or patches, and other activities.\nWe are committed to making participation in this project a harassment-free experience for everyone, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, or religion.\nExamples of unacceptable behavior by participants include the use of sexual language or imagery, derogatory comments or personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct.\nProject maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct. Project maintainers who do not follow the Code of Conduct may be removed from the project team.\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported by opening an issue or contacting one or more of the project maintainers.\nThis Code of Conduct is adapted from the Contributor Covenant (http://contributor-covenant.org), version 1.0.0, available at http://contributor-covenant.org/version/1/0/0/"
+  },
+  {
+    "objectID": "index.html#planting-the-seeds-rpharma",
+    "href": "index.html#planting-the-seeds-rpharma",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "Planting the Seeds: R/Pharma",
+    "text": "Planting the Seeds: R/Pharma\n\nrinpharma.com"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "",
+    "text": "Joe Cheng - Using Shiny Responsibly in Pharma"
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "",
+    "text": "Paul Schuette - Using R in a Regulatory Environment"
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "",
+    "text": "pharmaverse.org"
+  },
+  {
+    "objectID": "index.html#teal",
+    "href": "index.html#teal",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "Teal",
+    "text": "Teal\n\n\n\n\n\n\n“Challenge study results delivery: from paper to interactive” Webinar\n“Gaining efficiency in the study results delivery internally & externally”\n“Challenging the way analyses are delivered”\n\n\n\n\ninsightsengineering.github.io/teal"
+  },
+  {
+    "objectID": "index.html#fda-uses-shiny",
+    "href": "index.html#fda-uses-shiny",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "FDA Uses Shiny",
+    "text": "FDA Uses Shiny\n\n\n\n\n\n\nsendigR - Cross-Study Analysis of SEND Datasets\nFDA MCDA Shiny App analysis can help inform decision making\nR Shiny Based Mobile Tools To Aid Regulatory Decisions And Program Evaluation\n“The application provides a visual output to easily access and comprehend the data”"
+  },
+  {
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "",
+    "text": "Shiny is Transforming Clinical Workflows\n\nAccelerating internal decisions\nEfficient review of clinical data\nIntuitive interfaces to complex statistical methods and pipelines\n\n\n\n\n\n\n\n\nHow can Shiny bring similar benefits to a clinical submission package?"
+  },
+  {
+    "objectID": "index.html#r-submissions-working-group",
+    "href": "index.html#r-submissions-working-group",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "R Submissions Working Group",
+    "text": "R Submissions Working Group\n\n\n\n\n\n\nCross-industry working group with members from life sciences organizations and regulatory agencies\nEvaluate clinical submission packages leveraging R for analysis programs and results\nIdentify potential gaps and solutions using targeted pilots that mimic a clinical submission process\nOpen-source: All materials available on GitHub!\n\n\n\n\nrconsortium.github.io/submissions-wg"
+  },
+  {
+    "objectID": "index.html#foundation---pilot-1-submission",
+    "href": "index.html#foundation---pilot-1-submission",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "Foundation - Pilot 1 Submission",
+    "text": "Foundation - Pilot 1 Submission\n\n\n\n\n\nNovember 2021 - Successful R-based Test Package Submitted to FDA\nAdhered to Electronic Common Technical Document (eCTD) specifications\n\nAnalysis Data Reviewer Guide\nR Package converted to text file using {pkglite}\nADaM datasets\nTLF output\n\n\n\n\n\ngithub.com/RConsortium/submissions-pilot1-to-fda"
+  },
+  {
+    "objectID": "index.html#technical-overview",
+    "href": "index.html#technical-overview",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "Technical Overview",
+    "text": "Technical Overview\n\n\n\n\n\n\nApplication components created with Shiny Modules\nAssembled as an R package using {golem}\nPackage dependencies managed by {renv} ensuring reviewers can replicate R environment used to build application\nVersion control and collaborative development with Git and GitHub\nADRG specifying precise instructions to execute application on a local machine with R available - created with Quarto!\n\n\n\n\ngithub.com/RConsortium/submissions-pilot2"
+  },
+  {
+    "objectID": "index.html#the-extra-virtual-mile",
+    "href": "index.html#the-extra-virtual-mile",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "The Extra (Virtual) Mile",
+    "text": "The Extra (Virtual) Mile\n\ngithub.com/quickemu-project/quickemu"
+  },
+  {
+    "objectID": "index.html#collaborative-review",
+    "href": "index.html#collaborative-review",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "Collaborative Review",
+    "text": "Collaborative Review\n\nRegular cadence to elicit feedback from FDA reviewers\nDevelopment version deployed on external hosting to streamline review"
+  },
+  {
+    "objectID": "index.html#with-great-power",
+    "href": "index.html#with-great-power",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "With Great Power…",
+    "text": "With Great Power…\n\n\n\n\n\n\nDynamically updates p-values based on filtered observation\nPotential for confusion and misinterpretation\nCompromise: Allow filtering within visualization module only"
+  },
+  {
+    "objectID": "index.html#section-4",
+    "href": "index.html#section-4",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "",
+    "text": "R-Consortium Blog Post"
+  },
+  {
+    "objectID": "index.html#the-new-frontier---pilot-4",
+    "href": "index.html#the-new-frontier---pilot-4",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "The New Frontier - Pilot 4",
+    "text": "The New Frontier - Pilot 4\nExplore use of novel technologies to efficiently bundle and transfer Shiny applications\n\nContainers: Encapsulate software alongside compute environment using Linux system images executed with the Podman container runtime\nWeb Assembly: Compile web applications into self-contained bundle executed directly in modern web browser\n\nVisit rconsortium.github.io/submissions-pilot4 for additional notes and minutes\n\nApp Container Repository & App Web-R Repository"
+  },
+  {
+    "objectID": "index.html#acknowledgements",
+    "href": "index.html#acknowledgements",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\n\n\n\n\nGregory Chen\nHye Soo Chen\nRobert Devine\nNing Leng\nTadeusz Lewandowski\nEdgar Manukyan\nEli Miller\nJoseph Rickert\nPaul Schuette\nHeng Wang\nYilong Zhang"
+  },
+  {
+    "objectID": "index.html#thank-you",
+    "href": "index.html#thank-you",
+    "title": "The Journey to a Successful Shiny App Submission 🛰",
+    "section": "Thank You!",
+    "text": "Thank You!\n\n\n\n @rpodcast\n podcastindex.social/@rpodcast\n @theRcast\n R-Podcast\n R-Weekly Highlights\n twitch.tv/rpodcast\n shinydevseries.com\n rweekly.org\n\n\nSlides available at rpodcast.github.io/shinysub_slides"
+  },
+  {
+    "objectID": "image_credits.html",
+    "href": "image_credits.html",
+    "title": "",
+    "section": "",
+    "text": "Title slide background: Planets, sub, earth, galaxy, space, night"
+  },
+  {
+    "objectID": "image_credits.html#slide-image-credits",
+    "href": "image_credits.html#slide-image-credits",
+    "title": "",
+    "section": "",
+    "text": "Title slide background: Planets, sub, earth, galaxy, space, night"
+  }
+]
