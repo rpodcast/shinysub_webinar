@@ -3,6 +3,7 @@ title: "The Journey to a Successful Shiny App Submission 🛰"
 author:
   - Eric Nantz, Eli Lilly
   - R Submissions Working Group
+  - R/Adoption Series 11-DEC-2023
 format: 
   revealjs:
     template-partials: 
