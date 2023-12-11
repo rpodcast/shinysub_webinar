@@ -1,0 +1,312 @@
+---
+title: "The Journey to a Successful Shiny App Submission 🛰"
+author:
+  - Eric Nantz, Eli Lilly
+  - R Submissions Working Group
+format: 
+  revealjs:
+    template-partials: 
+      - title-slide.html
+    slide-number: c/t
+    center-title-slide: false
+    theme: [simple, theme.scss]
+    title-slide-attributes: 
+      data-background-image: images/planets.jpg
+      data-background-size: cover
+      data-background-opacity: "0.75"
+    confetti:
+      particleCount: 300
+      angle: 90
+      spread: 180
+      scalar: 1.4
+revealjs-plugins:
+  - confetti
+---
+
+## Planting the Seeds: [R/Pharma](https://rinpharma.com) {background-image="images/rpharma_audience.jpg" background-size="cover" background-color="white" background-opacity="0.6"}
+
+::: footer
+[rinpharma.com](https://rinpharma.com)
+:::
+
+## {background-image="images/rpharma_joe_cheng.jpg" background-opacity="0.8"}
+
+::: footer
+[Joe Cheng - Using Shiny Responsibly in Pharma](https://rinpharma.com/publication/rinpharma_33/)
+:::
+
+## {background-image="images/rpharma_paul_schuette.jpg"}
+
+::: footer
+[Paul Schuette - Using R in a Regulatory Environment](https://rinpharma.com/publication/rinpharma_7/)
+:::
+
+##
+
+![](images/pharmaverse.png){.absolute top=10 left=70}
+
+::: footer
+[pharmaverse.org](https://pharmaverse.org){preview-link="true"}
+:::
+
+
+## Teal {.centerheading}
+
+![](images/teal_demo.gif){.absolute top=50 left=-60}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+:::
+
+::: {.column width="60%"}
+
+- “Challenge study results delivery: from paper to interactive” [Webinar](https://youtu.be/nqJsLSLd39A?t=486)
+- "Gaining efficiency in the study results delivery internally & externally"
+- "Challenging the way analyses are delivered"
+
+:::
+
+::::
+
+::: footer
+[insightsengineering.github.io/teal](https://insightsengineering.github.io/teal/latest-tag/)
+:::
+
+## FDA Uses Shiny {.centerheading .smaller}
+
+![](images/fda_sampling_app.gif){.absolute top=140 left=-60}
+
+:::: {.columns}
+
+::: {.column width="55%"}
+
+:::
+
+::: {.column width="45%"}
+
+- [sendigR - Cross-Study Analysis of SEND Datasets](https://www.fda.gov/media/148381/download)
+- [FDA MCDA Shiny App analysis can help inform decision making](https://ww2.amstat.org/meetings/biop/2020/onlineprogram/ViewPresentation.cfm?file=301270.pptx)
+- [R Shiny Based Mobile Tools To Aid Regulatory Decisions And Program Evaluation](https://www.fda.gov/media/130495/download)
+- ["The application provides a visual output to easily access and comprehend the data"](https://www.fda.gov/science-research/fda-stem-outreach-education-and-engagement/developing-quantitative-interface-evaluating-effect-dosage-modification-safety-and-efficacy)
+
+:::
+
+::::
+
+## {.smaller}
+
+### Shiny is Transforming Clinical Workflows
+
++ Accelerating internal decisions
+* Efficient review of clinical data
+* Intuitive interfaces to complex statistical methods and pipelines
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/donald_duck.png)
+:::
+
+::: {.column width="50%"}
+![](images/clutter.jpg)
+:::
+
+::::
+
+**How can Shiny bring similar benefits to a clinical submission package?**
+
+## R Submissions Working Group {.smaller}
+
+![](images/pilot1_kmplot.png){.absolute top=70 left=-50 width="47%"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+:::
+
+::: {.column width="50%"}
+
+* Cross-industry working group with members from life sciences organizations **and regulatory agencies**
+* Evaluate clinical submission packages leveraging R for analysis programs and results
+* Identify potential gaps and solutions using targeted pilots that mimic a clinical submission process
+* Open-source: All materials available on GitHub!
+
+:::
+
+::::
+
+::: footer
+[rconsortium.github.io/submissions-wg](https://rconsortium.github.io/submissions-wg/)
+:::
+
+## Foundation - Pilot 1 Submission {.smaller}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+![](images/tron1.png)
+
+:::
+
+::: {.column width="70%"}
+
+* November 2021 - [Successful R-based Test Package Submitted to FDA](https://www.r-consortium.org/blog/2021/12/08/successful-r-based-test-package-submitted-to-fda)
+* Adhered to [Electronic Common Technical Document (eCTD)](https://www.fda.gov/drugs/electronic-regulatory-submission-and-review/electronic-common-technical-document-ectd) specifications
+     + [Analysis Data Reviewer Guide](https://github.com/RConsortium/submissions-pilot1-to-fda/blob/main/m5/datasets/rconsortiumpilot1/analysis/adam/datasets/adrg.pdf)
+     + R Package converted to [text file](https://github.com/RConsortium/submissions-pilot1-to-fda/blob/main/m5/datasets/rconsortiumpilot1/analysis/adam/programs/r0pkg.txt) using [`{pkglite}`](https://merck.github.io/pkglite/)
+     + ADaM datasets
+     + TLF output
+     
+:::
+
+::::
+
+::: footer
+[github.com/RConsortium/submissions-pilot1-to-fda](https://github.com/RConsortium/submissions-pilot1-to-fda)
+:::
+
+# Demo Time! {background-image="images/tron_lightcycle_gif_project.gif" background-color="black"}
+
+## Technical Overview {.smaller}
+
+![](images/pilot2_packages.png){.absolute top=170 left=-40 width="35%"}
+
+:::: {.columns}
+
+::: {.column width="35%"}
+
+:::
+
+::: {.column width="65%"}
+
+* Application components created with [Shiny Modules](https://shiny.rstudio.com/articles/modules.html)
+* Assembled as an R package using [`{golem}`](https://thinkr-open.github.io/golem/)
+* Package dependencies managed by [`{renv}`](https://rstudio.github.io/renv/index.html) ensuring reviewers can replicate R environment used to build application
+* Version control and collaborative development with Git and GitHub
+* ADRG specifying precise instructions to execute application on a local machine with R available - created with [Quarto](https://quarto.org)!
+     
+:::
+
+::::
+
+::: footer
+[github.com/RConsortium/submissions-pilot2](https://github.com/RConsortium/submissions-pilot2)
+:::
+
+## The Extra (Virtual) Mile {.centerheading background-image="images/quickemu_with_windows.png" background-size="59%"}
+
+::: footer
+[github.com/quickemu-project/quickemu](https://github.com/quickemu-project/quickemu)
+:::
+
+## Collaborative Review {.smaller}
+
+* Regular cadence to elicit feedback from FDA reviewers
+* Development version deployed on [external hosting](https://rconsortium.shinyapps.io/submissions-pilot2/) to streamline review
+
+{{< video https://youtu.be/qy47s-694to start="61" width="70%" height="70%" >}}
+
+
+## With Great Power... {.centerheading}
+
+![](images/app_filter.png){.absolute top=30 left=-60}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+:::
+
+::: {.column width="70%"}
+
+ + Dynamically updates p-values based on filtered observation
+ + Potential for confusion and misinterpretation 
+ + Compromise: Allow filtering within visualization module only
+ 
+:::
+
+::::
+
+## 
+
+![](images/pilot2_success_post_approval.png){.absolute top=10 left=70}
+
+::: footer
+[R-Consortium Blog Post](https://www.r-consortium.org/announcement/2023/10/05/shiny-app-successfully-reviewed-by-fda-cder-staff-pilot-2-announcement-2){preview-link="true"}
+:::
+
+
+## The New Frontier - Pilot 4
+
+Explore use of novel technologies to efficiently bundle and transfer Shiny applications
+
+* __Containers__: Encapsulate software alongside compute environment using Linux system images executed with the [Podman](https://podman.io/) container runtime 
+* __Web Assembly__: Compile web applications into self-contained bundle executed directly in modern web browser
+
+Visit [rconsortium.github.io/submissions-pilot4](https://rconsortium.github.io/submissions-pilot4) for additional notes and minutes
+
+::: footer
+[App Container Repository](https://github.com/Appsilon/experimental-fda-submission-4-podman) & [App Web-R Repository](https://github.com/RConsortium/submissions-pilot4-webR)
+:::
+
+## Acknowledgements {.smaller}
+
+![](images/people/people_slide.png){.absolute top=100 left=300 width="80%"}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+* Gregory Chen
+* Hye Soo Chen
+* Robert Devine
+* Ning Leng
+* Tadeusz Lewandowski
+* Edgar Manukyan
+* Eli Miller
+* Joseph Rickert
+* Paul Schuette
+* Heng Wang
+* Yilong Zhang
+
+:::
+
+::: {.column width="70%}
+
+:::
+
+::::
+
+
+## Thank You! {.centerheading .smaller}
+
+```{r}
+#| include: false
+library(qrcode)
+url <- qr_code("https://rpodcast.github.io/shinysub_slides")
+generate_svg(url, filename = "images/qr.svg")
+```
+
+![](images/qr.svg){.absolute bottom=10 right=5 width="20%"}
+
+::: {style="text-align: center;"}
+![](images/people/pic_with_r_logo_github.jpg){width="20%"}
+
+[`r fontawesome::fa("github")` \@rpodcast](https://github.com/rpodcast)\
+[`r fontawesome::fa("mastodon")` podcastindex.social/\@rpodcast](https://podcastindex.org/@rpodcast)\
+[`r fontawesome::fa("twitter")` \@theRcast](https://twitter.com/theRcast)\
+[`r fontawesome::fa("microphone")` R-Podcast](https://r-podcast.org)\
+[`r fontawesome::fa("microphone")` R-Weekly Highlights](https://rweekly.fireside.fm/)\
+[`r fontawesome::fa("twitch")` twitch.tv/rpodcast](https://twitch.tv/rpodcast)\
+[`r fontawesome::fa("video")` shinydevseries.com](https://shinydevseries.com)\
+[`r fontawesome::fa("newspaper")` rweekly.org](https://rweekly.org)
+:::
+
+::: footer
+Slides available at [rpodcast.github.io/shinysub_slides](https://rpodcast.github.io/shinysub_webinar/)
+:::
+

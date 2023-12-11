@@ -1,0 +1,12 @@
+project:
+  type: website
+  
+website: 
+  site-url: "https://rpodcast.github.io/shinysub_webinar/"
+  twitter-card:
+    image: "images/preview.png"
+    card-style: summary_large_image
+    description: "The complete story on how a pilot Shiny application was successfully submitted to the FDA."
+
+execute: 
+  freeze: auto
